@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SodaMachine()
+comment1.target=void\ insertQuarter()
+comment2.target=void\ insertDime()
+comment3.target=void\ insertNickel()
+comment4.params=cents
+comment4.target=void\ setPrice(int)
+comment5.target=void\ vend()
+numComments=6

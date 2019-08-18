@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1323407090 source:/home/kronin/EEFinalHW/main.c
+	"tMatrix.h"
+	"hComplex.h"
+	<string.h>
+
+1323407232 /home/kronin/EEFinalHW/tMatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"hComplex.h"
+
+1323384224 /home/kronin/EEFinalHW/hComplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

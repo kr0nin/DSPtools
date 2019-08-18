@@ -1,0 +1,20 @@
+#BlueJ package file
+package.editor.height=480
+package.editor.width=706
+package.editor.x=358
+package.editor.y=49
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+target1.editor.height=812
+target1.editor.width=626
+target1.editor.x=7
+target1.editor.y=9
+target1.height=50
+target1.name=SodaMachine
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=100
+target1.x=60
+target1.y=10

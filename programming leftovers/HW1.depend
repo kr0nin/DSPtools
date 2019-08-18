@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1316492652 source:c:\users\kronin\desktop\hw1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

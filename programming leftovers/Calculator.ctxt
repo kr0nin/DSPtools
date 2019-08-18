@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Calculator()
+comment1.target=int\ display()
+comment2.params=n
+comment2.target=void\ digit(int)
+comment3.target=void\ opCount()
+comment4.target=void\ plus()
+comment5.target=void\ minus()
+comment6.target=void\ times()
+comment7.target=void\ dividedBy()
+comment8.target=void\ equals()
+numComments=9

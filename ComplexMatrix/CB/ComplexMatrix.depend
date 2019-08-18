@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1322773494 source:z:\ntprofile\desktop\main.c
+	"tMatrix.h"
+
+1322773494 "
+
+1322770828 z:\ntprofile\desktop\tmatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"hComplex.h"
+
+1322770828 h"
+
+1322770828 z:\ntprofile\desktop\hcomplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1322770828 
+
+1323383442 source:/home/kronin/ComplexMatrix/CB/main.c
+	"tMatrix.h"
+
+1323309082 /home/kronin/ComplexMatrix/CB/tMatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"hComplex.h"
+
+1323309082 /home/kronin/ComplexMatrix/CB/hComplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1323375074 source:/home/kronin/ComplexMatrix/CB/tokenizer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

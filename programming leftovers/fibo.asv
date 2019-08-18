@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fibonacci number
+% Erich Kroneberger CS122 
+% hw problem #6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clear all
+
+%initilize sums
+n = 0; 
+
+%set v
+fibo1 = input ('enter n= ');
+
+while f >= 2;
+    
+    % accumulate sums?
+    n = (n-1) + (n-2);
+    
+    %next value
+    f = input('enter next value= ');
+    
+end
+
+fibo2 = (fibo1-1) + (fibo1-2);
+
+fprintf('the Fibonacci number for %d= %d'\n , f,n);

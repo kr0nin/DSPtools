@@ -1,0 +1,1 @@
+cmd_/home/kronin/Desktop/gobiarch/QCUSBNet/QCUSBNet2k.ko := ld -r -m elf_x86_64 -T /usr/src/linux-3.1.5-1-ARCH/scripts/module-common.lds --build-id  -o /home/kronin/Desktop/gobiarch/QCUSBNet/QCUSBNet2k.ko /home/kronin/Desktop/gobiarch/QCUSBNet/QCUSBNet2k.o /home/kronin/Desktop/gobiarch/QCUSBNet/QCUSBNet2k.mod.o

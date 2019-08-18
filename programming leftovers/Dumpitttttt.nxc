@@ -1,0 +1,96 @@
+/***********************************************************
+Team: Team_06
+Project Number: Proj_2
+Primary Programmer: Erich Kroneberger
+Consultant: Mathew Daugherty
+Best Supporting Actress: Ibrahim Atout
+-----------------------------------------------------------
+Output A == left motor (facing forward)
+Output B == dumping arm
+Output C == right motor (facing forward)
+Sensor 1 == left RCX light (facing forward)
+Sensor 2 == right RCX light (facing forward)
+Sensor 3 == swing bumper sensor (sits at 0, +2 is dump value (45 degrees))
+Sensor 4 == touch sensor for start/strange functions
+As of this typed text, motors are not geared
+************************************************************/
+
+#define Left_Motor OUT_A                  //nicknames / definition
+#define Right_Motor OUT_C
+#define Dumper OUT_B
+
+void GoGo()                               //to go forward with pride
+     {
+     OnFwd(Left_Motor,85);
+     OnFwd(Right_Motor,85);
+     }
+     
+void AdjustLeft()                        //to fix robot alignment left
+     {
+     //Float(Left_Motor);
+     Off(Left_Motor);
+     OnFwd(Right_Motor,100);
+     }
+
+void AdjustRight()                       //to fix robot alignment right
+     {
+     //Float(Right_Motor);
+     Off(Right_Motor);
+     OnFwd(Left_Motor,100);
+     }
+
+void PanicDance()                        //trump card in case of emergency
+     {
+     OnRev(Right_Motor,100);
+     OnRev(Left_Motor,50);
+     Wait(5000);
+     }
+     
+void Dump()                              //dump payload
+     {
+     RotateMotor(Dumper,30,55);
+     }
+     
+task main()
+     {
+
+     SetSensor(S1,SENSOR_LIGHT);               //left light start cleared
+     SetSensorMode(S1,SENSOR_MODE_PERCENT);
+
+     SetSensor(S2,SENSOR_LIGHT);               //right light start cleared
+     SetSensorMode(S2,SENSOR_MODE_PERCENT);
+
+     SetSensor(S3,SENSOR_ROTATION);            //rotary starts cleared
+     ClearSensor(SENSOR_3);
+     
+     SetSensorTouch(S4);                       //touch sensor exists
+
+          until(SENSOR_4 == 1){Wait(100);}     //on button
+     
+     PlayFileEx("Mario_1_Up.rso", 4, 0);       //startup sound
+
+     long Start_Time;                          //start timer
+     long End_Time;
+     float Elasped_Time;
+     Start_Time= CurrentTick();
+     
+               while(SENSOR_3 > -6)             //navagate line until bumped
+                   {
+                   if(SENSOR_1 < 30) {AdjustLeft();}
+                   else if (SENSOR_2 < 30) {AdjustRight();}
+                   else if (SENSOR_1 == SENSOR_2 && SENSOR_1 < 15) {PanicDance();}
+                   else {GoGo();}
+                   }
+     
+          Off(OUT_AC);                         //stop, dump and sound-off
+          Dump();
+          PlayFileEx("Motorola_Droid.rso", 4, 0);
+
+      End_Time = CurrentTick();                //count final time and display
+      Elasped_Time = End_Time - Start_Time;
+      while(true)
+            {NumOut( 30, 40,Elasped_Time/1000);
+            
+            }
+
+     }

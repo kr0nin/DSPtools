@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1316120384 source:z:\ntprofile\desktop\ee222\complexnumbers\main.c
+	"hComplex.h"
+
+1316552292 z:\ntprofile\desktop\ee222\complexnumbers\hcomplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

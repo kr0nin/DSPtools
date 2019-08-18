@@ -1,0 +1,1 @@
+cmd_/home/cmw/Downloads/QCUSBNet/QCUSBNet2k.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-2.6.38-7-generic/scripts/module-common.lds --build-id  -o /home/cmw/Downloads/QCUSBNet/QCUSBNet2k.ko /home/cmw/Downloads/QCUSBNet/QCUSBNet2k.o /home/cmw/Downloads/QCUSBNet/QCUSBNet2k.mod.o

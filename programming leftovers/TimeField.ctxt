@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ min\ max\ lead_zero
+comment0.target=TimeField(int,\ int,\ int,\ boolean)
+comment1.target=void\ increment()
+comment2.target=int\ getValue()
+comment3.target=boolean\ rollOver()
+comment4.target=String\ toString()
+numComments=5

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1318979181 source:z:\ntprofile\desktop\ee222\matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tMatrix.h"
+
+1318969444 "
+
+1319143110 z:\ntprofile\desktop\ee222\matrix\tmatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1318972805 
+
+1318972969 source:/media/user/NTProfile/Desktop/EE222/Matrix/main.c
+	<stdio.h>
+	<stdlib.h>
+	"tMatrix.h"
+
+1318979107 /media/user/NTProfile/Desktop/EE222/Matrix/tMatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

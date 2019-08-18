@@ -1,0 +1,48 @@
+/***************************************** 
+
+BucketBot .slowgear edition
+
+Programmers: Team_06 Erich Kroneberger, Mathew Daughtery, Ibrahim Atout
+
+This program is designed to guide the custom robot "sad elephant" to pick up, carry and place a film canister 
+on the opposite side of a 12 inch garden stepping stone from the starting position. 
+
+*******************************************/
+
+task main ()
+
+{
+
+PlaySound(SOUND_UP);          //on
+Wait(500);
+
+OnFwd(OUT_AC,30);             //approach bucket
+Wait(1300);
+Off(OUT_AC);
+
+RotateMotor(OUT_B,30,-45);    //pickup bucket
+Wait(500);
+Off(OUT_B);
+
+OnFwd(OUT_C,70);              //positioning for turn
+OnRev(OUT_A,60);
+Wait(850);
+
+OnFwd(OUT_A,70);              //big turn: slow arc around the stepping stone
+Wait(2000);
+OnFwd(OUT_C,45);
+OnFwd(OUT_A,80);
+Wait(8250);                   //8.250 sec
+Off(OUT_AC);
+
+RotateMotor(OUT_B,5,45);      //place bucket 
+Off(OUT_B);
+
+
+OnRev(OUT_AC,80);             //move clear
+Wait(2000);
+Off(OUT_AC);
+
+PlaySound(SOUND_DOUBLE_BEEP); //finish
+
+}

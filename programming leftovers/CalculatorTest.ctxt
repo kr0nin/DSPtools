@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=void\ test()
+comment1.params=args
+comment1.target=void\ main(String[])
+comment2.target=CalculatorTest()
+comment3.params=mesg
+comment3.target=void\ println(String)
+comment4.params=cmds\ expected_result
+comment4.target=void\ runTest(String,\ int)
+numComments=5

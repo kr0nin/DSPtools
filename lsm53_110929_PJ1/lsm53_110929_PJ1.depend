@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1318463087 source:z:\ee222\lsm53_110929_pj1\lsm53_110929_pj1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

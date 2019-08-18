@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1315341234 source:z:\ntprofile\desktop\classwork archive\ee222\organize\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1315341208 source:z:\ntprofile\desktop\classwork archive\ee222\organize\fact.c
+	<stdio.h>
+	<stdlib.h>
+

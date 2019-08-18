@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1317932136 source:z:\ntprofile\desktop\ee222\secant_euler\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1317932156 source:z:\ntprofile\desktop\ee222\secant_euler\euler_method.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1317932202 source:z:\ntprofile\desktop\ee222\secant_euler\secant_method.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1317932175 source:z:\ntprofile\desktop\ee222\secant_euler\bubble2.c
+	<stdio.h>
+	<stdlib.h>
+

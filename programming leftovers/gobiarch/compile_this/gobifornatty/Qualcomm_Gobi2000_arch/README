@@ -1,0 +1,18 @@
+# Quick Info #
+
+These here are the Qualcomm Gobi 2000 driver's compiled aginst kernel 2.6.32.2. These work on 2.6.37.3 and i *ASSUME* they will work on future kernel versions. 
+
+These driver's go along with the How to Install Arch Linux on Google cr-48 Notebook post #82
+
+Link: https://bbs.archlinux.org/viewtopic.php?pid=902871#p902871
+
+You can find all the info you need there.  
+
+Good Luck,
+
+dots
+
+
+-Original cerdit to the drivers and the original ubuntu guide go to beeradg on ChromeOsLounge
+-Original drivers link : http://www.chromeoslounge.com/cr-48-chrome-notebook/807-cr48-gobi2000-use-other-oses-3.html#post10770
+-Original guide link : http://www.chromeoslounge.com/cr-48-chrome-notebook/807-cr48-gobi2000-use-other-oses-4.html#post10861

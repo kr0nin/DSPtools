@@ -1,0 +1,137 @@
+.
+├── ComplexNumbers
+│   ├── bin
+│   ├── ComplexNumbers.cbp
+│   ├── ComplexNumbers.depend
+│   ├── ComplexNumbers.layout
+│   ├── ComplexNumbers.layout.cbTemp
+│   ├── hcomplex.h
+│   ├── main.c
+│   └── obj
+├── Datatypes
+│   ├── bin
+│   ├── clients.dat
+│   ├── data0927
+│   ├── data.dat
+│   ├── Datatypes.cbp
+│   ├── Datatypes.depend
+│   ├── Datatypes.layout
+│   ├── Datatypes.layout.cbTemp
+│   ├── format.c
+│   ├── main.c
+│   ├── obj
+│   └── strangedatachecker.c
+├── Differentiation
+│   ├── bin
+│   ├── Diff_attempt.c
+│   ├── Differentiation.cbp
+│   ├── Differentiation.depend
+│   ├── Differentiation.layout
+│   ├── Differentiation.layout.cbTemp
+│   ├── main.c
+│   ├── obj
+│   └── results.csv
+├── evk3_sample_project
+│   ├── bin
+│   ├── evk3_08302011_firstday2.c
+│   ├── evk3_08302011_firstday3.c
+│   ├── evk3_08302011_firstday.c
+│   ├── evk3_08302011_secondday2.c
+│   ├── evk3_08302011_secondday3.c
+│   ├── evk3_08302011_secondday4.c
+│   ├── evk3_08302011_secondday.c
+│   ├── evk3_sample_project.cbp
+│   ├── evk3_sample_project.depend
+│   ├── evk3_sample_project.layout
+│   ├── evk3_sample_project.layout.cbTemp
+│   ├── main.c
+│   ├── obj
+│   └── Untitled1.c
+├── Homework
+│   ├── evk3_110920_HW1_1.c
+│   ├── evk3_110920_HW1_2.c
+│   ├── evk3_110920_HW1_3.c
+│   ├── evk3_110920_HW1_4.c
+│   ├── GCD
+│   ├── HW1
+│   ├── HW1-Bubble
+│   ├── HW1-Hyp.cbp
+│   ├── HW1-Hyp.layout
+│   ├── HW1-Hyp.layout.cbTemp
+│   └── HW1-Recurse
+├── InClassAssignment_evk3_01
+│   ├── bin
+│   ├── evk3_InClassAssignmentNumber1.cbp
+│   ├── evk3_InClassAssignmentNumber1.depend
+│   ├── evk3_InClassAssignmentNumber1.layout
+│   ├── InClassAssignment_evk3_01.cbp
+│   ├── InClassAssignment_evk3_01.layout
+│   ├── main.c
+│   └── obj
+├── lsm53_110929_PJ1
+│   ├── bin
+│   ├── lsm53_110929_PJ1.c
+│   ├── lsm53_110929_PJ1.cbp
+│   ├── lsm53_110929_PJ1.depend
+│   ├── lsm53_110929_PJ1.layout
+│   ├── obj
+│   └── out.dat
+├── map.txt
+├── Matrix
+│   ├── bin
+│   ├── main.c
+│   ├── Matrix.cbp
+│   ├── Matrix.cbp.cbTemp
+│   ├── Matrix.depend
+│   ├── Matrix.layout
+│   ├── obj
+│   └── tMatrix.h
+├── Organize
+│   ├── bin
+│   ├── broken fact.c
+│   ├── fact.c
+│   ├── factorial_fail.c
+│   ├── fib.c
+│   ├── fib.cbp
+│   ├── fib.depend
+│   ├── fib.layout
+│   ├── main.c
+│   ├── obj
+│   ├── Organize.cbp
+│   ├── Organize.cbp.cbTemp
+│   ├── Organize.depend
+│   ├── Organize.layout
+│   └── Untitled1.c
+├── realloc
+│   ├── bin
+│   ├── main.c
+│   ├── obj
+│   ├── realloc.cbp
+│   └── realloc.layout
+├── Secant_Euler
+│   ├── bin
+│   ├── bubble2.c
+│   ├── Euler2.c
+│   ├── euler_method.c
+│   ├── evk3_111006_SecantMethod.c
+│   ├── main.c
+│   ├── obj
+│   ├── plot_secant.fig
+│   ├── plot_secant.jpg
+│   ├── rc.c
+│   ├── results.csv
+│   ├── Secant_Euler.cbp
+│   ├── Secant_Euler.cbp.cbTemp
+│   ├── Secant_Euler.depend
+│   ├── Secant_Euler.layout
+│   └── secant_method.c
+└── switchcase
+    ├── bin
+    ├── main.c
+    ├── main.cpp
+    ├── obj
+    ├── switchcase.cbp
+    ├── switchcase.depend
+    └── switchcase.layout
+
+38 directories, 96 files

@@ -1,0 +1,70 @@
+alsa-tools alsa-tools-gui qamix jackd qjackctl bitscope jdelay meterbridge patchage jack-tools audacity timemachine audacious audacious-plugins-extra ardour beast fluidsynth bristol freebirth qsynth zynaddsubfx csound swami
+===============================================================================================================================
+Sampling 
+sooperlooper - Looping Sampler LADSPA plugin 
+
+Sequencing 
+aconnectgui - graphical ALSA sequencer connection manager 
+rosegarden - music editor and MIDI/audio sequencer 
+hydrogen - Simple drum machine/step sequencer 
+seq24 - Real time MIDI sequencer 
+jackbeat - audio sequencer 
+muse - Qt-based midi/audio sequencer 
+tk707 - drum sequencer for a sound card or MIDI device 
+shaketracker - MIDI sequencer with tracker GUI 
+
+Effects and signal processing 
+jack-rack - LADSPA effects "rack" for JACK 
+tapiir - A tool for real time audio delay and feedback effects 
+freqtweak - Realtime audio frequency spectral manipulation 
+jamin - Audio mastering from a mixed down multitrack source with JACK 
+creox - real-time guitar effects 
+jackeq - routes and manipulates audio from/to multiple sources 
+
+DJ tools 
+terminatorx - A realtime audio synthesizer 
+mixxx - A digital DJ interface (for beat-mixing) 
+
+MIDI Utilities 
+timidity - Software sound renderer (MIDI sequencer, MOD player) 
+vkeybd - Virtual Keyboard program 
+
+Musical typesetting 
+denemo - A gtk+ frontend to GNU Lilypond 
+
+lilypond-data - LilyPond music typesetter (data files) 
+lilypond - A program for typesetting sheet music 
+
+Miscellaneous / uncategorized 
+gtick - Metronome application 
+puredata - realtime computer music and graphics system 
+
+fluid-soundfont-gm - This is a GM SoundFont, for use with any modern MIDI synthesiser: hardware (like the emu10k1 sound card), or software (like FluidSynth). 
+
+The categories here were more or less copied from JacobCreedon's division at http://help.ubuntu.com/community/UbuntuStudio/Audio 
+
+ubuntustudio-audio-plugins
+
+An audio plug-ins package. 
+
+Package list:
+
+aeolus blop caps cmt hexter fil-plugins ladspa-sdk mcp-plugins omins swh-plugins tap-plugins vcf dssi-example-plugins dssi-host-jack fluidsynth-dssi xsynth-dssi dssi-utils 
+Description:
+aeolus - Aeolus is a synthesized (i.e. not sampled) pipe organ emulator 
+blop - Bandlimited wavetable-based oscillator plugins for LADSPA hosts. 
+caps - A collection of refined LADSPA plugins. 
+cmt - (Computer Music Toolkit) A collection of LADSPA compatible plugins. 
+fil-plugins - Parametric equalizer LADSPA plugin. 
+hexter - Yamaha DX7 modeling DSSI plugin 
+ladspa-sdk - Sample tools for linux-audio-dev plugin architecture. 
+mcp-plugins - LADSPA plugins designed for Alsa Modular Synth. 
+omins - Collection of LADSPA plugins geared at modular synthesizers. 
+swh-plugins - Steve Harris's LADSPA plugins. 
+tap-plugins - Tom's Audio Processing LADSPA plugins. 
+vcf - Audio EQ biquad filter LADSPA plugins. 
+dssi-example-plugins - Example DSSI plugins. 
+dssi-host-jack - An example DSSI host. 
+fluidsynth-dssi - Soundfont player/synth for DSSI. 
+xsynth-dssi - A classic-analog style softsynth DSSI plugin. 
+dssi-utils - Command-line utilities for sending commands to DSSI plugins.

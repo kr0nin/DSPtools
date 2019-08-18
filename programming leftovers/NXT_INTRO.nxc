@@ -1,0 +1,32 @@
+/* Intro to the NXT.v1
+
+Programmer:  John Sharber
+
+This program monitors a touch sensor on port 1, an NXT light sensor (active mode)
+on port 2 and a RCX rotation sensor on port 3.
+The sensor reading are displayed on the NXT's LCD screen
+*/
+
+
+
+task main()                                     //All programs must have a task main()
+{
+   SetSensorTouch(S1);                          //Define the sensor types
+   SetSensorLight(S2);
+   SetSensor(S3, SENSOR_ROTATION);
+   ClearSensor(S3);                            //why should the sensor be cleared?
+
+   while(true)                                 // Begin infinite loop
+    {
+      ClearScreen();                           //Why is this command here?
+      TextOut(0, LCD_LINE2,"Touch Sensor=" );
+      NumOut(84,LCD_LINE2,SENSOR_1);
+      
+      TextOut(0,LCD_LINE4,"Light Sensor=" );
+      NumOut(84,LCD_LINE4,SENSOR_2);
+      
+      TextOut(0,LCD_LINE6,"Rot.Sensor=" );
+      NumOut(70,LCD_LINE6,SENSOR_3);
+      Wait (100);                               //why is this wait here?
+     }                                         //end loop
+}                                             //end task

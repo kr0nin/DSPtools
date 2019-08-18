@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1322553095 source:/media/SD-CARD/homework/EE222/ComplexMatrix/main.c
+	"tMatrix.h"
+
+1322553031 /media/SD-CARD/homework/EE222/ComplexMatrix/tMatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"hComplex.h"
+
+1322553131 /media/SD-CARD/homework/EE222/ComplexMatrix/hComplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1322552566 source:/media/SD-CARD/homework/EE222/ComplexMatrix/main2.c
+	"tMatrix.h"
+
+1322553095 source:/home/kronin/Desktop/homework/EE222/ComplexMatrix/main.c
+	"tMatrix.h"
+
+1322553031 /home/kronin/Desktop/homework/EE222/ComplexMatrix/tMatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"hComplex.h"
+
+1322553131 /home/kronin/Desktop/homework/EE222/ComplexMatrix/hComplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1322770482 source:/home/kronin/homework/EE222/ComplexMatrix/main.c
+	"tMatrix.h"
+
+1322729036 /home/kronin/homework/EE222/ComplexMatrix/tMatrix.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"hComplex.h"
+
+1322727760 /home/kronin/homework/EE222/ComplexMatrix/hComplex.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

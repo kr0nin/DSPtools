@@ -1,0 +1,1 @@
+cmd_/home/cmw/Downloads/QCUSBNet/QCUSBNet2k.o := ld -m elf_x86_64   -r -o /home/cmw/Downloads/QCUSBNet/QCUSBNet2k.o /home/cmw/Downloads/QCUSBNet/QCUSBNet.o /home/cmw/Downloads/QCUSBNet/QMIDevice.o /home/cmw/Downloads/QCUSBNet/QMI.o 

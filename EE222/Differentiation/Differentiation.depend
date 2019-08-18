@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1317328408 source:z:\ntprofile\desktop\ee222\differentiation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

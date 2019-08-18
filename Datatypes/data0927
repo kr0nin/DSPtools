@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    int account;
+    char name[30];
+    double balance;
+
+    FILE *cfPtr;
+
+    if ((cfPtr = fopen("clients.dat","w")
+
+
+
+}
